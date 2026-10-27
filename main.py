@@ -10,7 +10,7 @@ from urllib3.util.retry import Retry
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-GEMINI_MODEL = "gemini-1.5-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/"
     f"v1beta/models/{GEMINI_MODEL}:generateContent"
